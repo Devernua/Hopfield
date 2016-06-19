@@ -19,10 +19,11 @@ typedef struct Image {
 
 void learning(Network* N, Image * images, size_t img_num);
 
+void start_execute(Network N, Image img);
 int execute(Network N, Image img);
 
 void scan_img(Image *img,size_t size);
-void print_img(Image img);
+void print_img(Image img, int lenstr);
 void scan_network(Network * N, char *path, size_t size);
 void print_network(Network N, char *path);
 

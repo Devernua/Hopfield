@@ -12,7 +12,7 @@ typedef struct Neuron{
     size_t size;
 } Neuron;
 
-void init(Neuron *a, size_t size);
+void init_Neuron(Neuron *a, size_t size);
 void destruct(Neuron *a);
 float summatory(Neuron a, int* input);
 int activation(float sum);

@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void init(Neuron *a, size_t size)
+void init_Neuron(Neuron *a, size_t size)
 {
     a->size = size;
     a->weight = (float *) calloc(size, sizeof(float));
