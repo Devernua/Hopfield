@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
     printf("%d\n",activation(summatory(a, input)));
     destruct(&a);
     */
---
+
     /*Image images[2]; //тест всей сети
     size_t size = 25;
     scan_img(&images[0], size); //два образа в виде массива 5 на 5
