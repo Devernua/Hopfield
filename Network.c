@@ -81,6 +81,7 @@ void scan_img(Image *img,size_t size)
 
 void print_img(Image img, int lenstr)
 {
+    printf("\n");
     for (int i = 0; i < img.size; i++){
         if (i % lenstr == 0 && i){
             printf("\n");
@@ -117,6 +118,7 @@ void print_network(Network N, char *path)
         fprintf(f,"\n");
     }
     fclose(f);
+    printf("Состояние сети записано в %s", path);
 }
 
 

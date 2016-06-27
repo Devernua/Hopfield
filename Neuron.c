@@ -21,8 +21,6 @@ void destruct(Neuron *a)
     a->size = 0;
 }
 
-
-
 float summatory(Neuron a, int* input)
 {
     float sum = 0;
